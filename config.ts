@@ -21,7 +21,7 @@ export const config = {
         privateKey: process.env.WALLET_PRIVATE_KEY || '',
         profitAddress: process.env.PROFIT_WALLET_ADDRESS || '',
         // MINIMUM ETH BALANCE to allow trading to start (UPDATED to 0.0008)
-        minEthBalance: parseFloat(process.env.MIN_ETH_BALANCE || '0.0008'), 
+        minEthBalance: parseFloat(process.env.MIN_ETH_BALANCE || '0.008'), 
         // ETH reserve to ensure gas fees can always be paid
         gasReserveEth: parseFloat(process.env.GAS_RESERVE_ETH || '0.0002')
     },
